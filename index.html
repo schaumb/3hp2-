@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    // https://github.com/schaumb/3hp2-
+    <!-- live: https://schaumb.github.io/3hp2-/ -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UI Nightmare</title>
+    <title>3hp2🎲</title>
+    <link rel="icon" type="image/x-icon" href="game-die.svg">
     <link href="style.css" rel="stylesheet">
-    <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
+    <h1>3hp2🎲 - UI Nightmare</h1>
     <select>
-        <option value="op1">Click on The Button</option>
-        <option value="op2">Button</option>
-        <option value="op3">Don't wanna miss that Button</option>
-        <option value="op3">The Button is elsewhere</option>
-        <option value="op3">The Button</option>
-        <option value="op3"><button>Not This Button</button></option>
+        <option id="op1" class="dropdown-op" value="op1">Click on The Button</option>
+        <option id="op2" class="dropdown-op" value="op3">Don't wanna miss that Button</option>
+        <option id="op3" class="dropdown-op" value="op2">Button</option>
+        <option id="op4" class="dropdown-op" value="op3">The Button is elsewhere</option>
+        <option id="op5" class="dropdown-op" value="op3">The Button</option>
+        <option id="op6" class="dropdown-op" value="op3"><button>Not This Button</button></option>
     </select>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
