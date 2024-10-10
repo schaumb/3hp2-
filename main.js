@@ -70,7 +70,7 @@ class MovingText {
 }
 
 
-const buttons = dropdown.childElementCount;
+const buttons = dropdown.childElementCount - 1;
 dropdown.addEventListener("click", () => {
     console.log("START")
     dropdown.classList.add("hidden");
